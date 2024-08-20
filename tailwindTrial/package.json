@@ -1,0 +1,15 @@
+{
+  "name": "tailwindtrial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "built-css": "tailwind build src/styles.css -o public.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^
+  }
+}
