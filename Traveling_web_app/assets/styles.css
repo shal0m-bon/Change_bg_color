@@ -1,0 +1,196 @@
+body{
+    background-image: url(img/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    margin: 0;
+    padding: 0;
+
+} 
+.main_text{
+    border: none;
+    width: 1100px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 8px 10px rgb(0, 0, 0);
+}
+h2{
+    text-align: center;
+    font-size:70px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.travel{
+    display: flex;
+    flex-direction: row;
+    font-size:20px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.travel h1{
+    margin-top: 70px;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+    border: none;
+    color: rgb(47, 47, 47);
+}
+.others button{
+    width: 18%;
+    height:45px;
+    font-size: 25px;
+    border-radius: 18px;
+    margin-top: 20px;
+    border: none;
+    background-color: skyblue;
+    box-shadow: 2px 2px 2px  rgb(39, 39, 39);
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.travel img{
+    width: 80px;
+    height: 80px;
+    margin: 40px;
+}
+
+.head_div{
+    background-image: url(img/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    border: 7px solid rgb(255, 255, 255);
+    border-bottom: 280px solid rgb(242, 238, 238);
+    width: 90%;
+    height: 1200px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+fieldset.search{
+    position: absolute;
+    left: 153px;
+    bottom: -110px;
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1425px;
+    border-radius: 30px;
+    border: none;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+h3{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(99, 99, 99);
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+fieldset.search input{
+    width: 70%;
+    height: 50px;
+    border: 3px solid rgb(77, 77, 77);
+    border-radius: 30px;
+    font-size: larger;
+    padding-left: 15px;
+}
+fieldset.search button{
+    width: 14%;
+    height:50px;
+    font-size: 25px;
+    border-radius: 25px;
+    /* border: 3px solid rgb(109, 109, 109); */
+    background-color:  rgb(254, 208, 185);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    color: rgb(99, 99, 99);
+    border: none;
+    box-shadow: 2px 2px 2px  rgb(39, 39, 39);
+}
+.search button img{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 18%;
+    height:65%;
+    opacity: 70%;
+}
+span{
+    margin-top: 10px;
+}
+button.flight{
+    width: 14%;
+    height:65%;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color:  rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    padding-bottom: 40px;
+}
+button.flight img{
+    width: 50px;
+}
+button.hotel{
+    background-color:  rgb(228, 228, 228);
+    width: 12%;
+    height:60%;
+    font-size: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12px;
+    border: none;
+    padding-bottom: 40px;
+}
+button.hotel img{
+    width: 50px;
+}
+button.rent_car{
+    background-color: rgb(228, 228, 228);
+    width: 12%;
+    height:60%;
+    font-size: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12px;
+    border: none;
+    padding-bottom: 40px;
+}
+button.rent_car img{
+    width: 50px;
+}
+div.buttons{
+    position: relative;
+    top: 320px;
+    left: 153px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
